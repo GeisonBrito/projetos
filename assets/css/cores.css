@@ -1,0 +1,48 @@
+:root{
+    --cor-base:rgb(92, 174, 206);
+    --cor-principal:var(--cor-base)
+}
+body{
+     background-color: var(--cor-principal)
+
+}
+.quadrado{
+   
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    border:solid;
+}
+.Circulo{
+    
+        margin-top: 10px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border:solid;
+    
+}
+
+.Circulo:hover{
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: 1s;
+    padding: 20px;
+    background-color: rgb(161, 71, 247);
+}
+.flex {
+    display: flex;
+    justify-content:space-around;
+}
+.cor1{
+
+    background-color: rgb(36, 17, 105);
+}
+.cor2{
+    background-color: rgb(247, 9, 235);
+
+}
+.cor3{
+    background-color: rgb(25, 9, 247)
+
+}
